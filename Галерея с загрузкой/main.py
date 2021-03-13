@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-@app.route('/', methods=['POST', 'GET'])
+@app.route('/galery', methods=['POST', 'GET'])
 def form_sample():
     global file_dir
     if request.method == 'GET':
